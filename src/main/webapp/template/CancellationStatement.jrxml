@@ -1,0 +1,2366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="56" bottomMargin="56" uuid="7c718244-5f2c-47cb-93f6-7998c48f4de6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="cm"/>
+	<parameter name="Date" class="java.lang.String">
+		<parameterDescription><![CDATA[日付]]></parameterDescription>
+	</parameter>
+	<parameter name="KAISHAMEI" class="java.lang.String"/>
+	<parameter name="CHINSHAKUNIN" class="java.lang.String"/>
+	<parameter name="YUUBINBANGOU" class="java.lang.String"/>
+	<parameter name="JUSHO" class="java.lang.String"/>
+	<parameter name="CHINTAININ" class="java.lang.String"/>
+	<parameter name="BUKKENMEI" class="java.lang.String"/>
+	<parameter name="KAIYAKUBI" class="java.lang.String"/>
+	<parameter name="TAIKYOBI" class="java.lang.String"/>
+	<parameter name="KAIYAKUSEISANBIYOTEIBI" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU1" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU2" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU3" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU4" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU5" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU6" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU7" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU8" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU9" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU10" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU11" class="java.lang.String"/>
+	<parameter name="OAZUKARIKOUMOKU12" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN1" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN2" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN3" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN4" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN5" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN6" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN7" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN8" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN9" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN10" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN11" class="java.lang.String"/>
+	<parameter name="OAZUKARIKIN12" class="java.lang.String"/>
+	<parameter name="SHOUKEI1" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU1" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU2" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU3" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU4" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU5" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU6" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU7" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU8" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU9" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU10" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU11" class="java.lang.String"/>
+	<parameter name="SEIKYUKOUMOKU12" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU1" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU2" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU3" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU4" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU5" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU6" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU7" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU8" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU9" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU10" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU11" class="java.lang.String"/>
+	<parameter name="SEIKYUGAKU12" class="java.lang.String"/>
+	<parameter name="SHOUKEI2" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU1" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU2" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU3" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU4" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU5" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU6" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU7" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU8" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU9" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU10" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU11" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU12" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU13" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU14" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU15" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU16" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU17" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU18" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU19" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU20" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU21" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU22" class="java.lang.String"/>
+	<parameter name="SYUZENKOUMOKU23" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA1" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA2" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA3" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA4" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA5" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA6" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA7" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA8" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA9" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA10" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA11" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA12" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA13" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA14" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA15" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA16" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA17" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA18" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA19" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA20" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA21" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA22" class="java.lang.String"/>
+	<parameter name="SYUZENTANKA23" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU1" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU2" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU3" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU4" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU5" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU6" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU7" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU8" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU9" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU10" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU11" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU12" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU13" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU14" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU15" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU16" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU17" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU18" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU19" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU20" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU21" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU22" class="java.lang.String"/>
+	<parameter name="SYUZENSUURYOU23" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU1" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU2" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU3" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU4" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU5" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU6" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU7" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU8" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU9" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU10" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU11" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU12" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU13" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU14" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU15" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU16" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU17" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU18" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU19" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU20" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU21" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU22" class="java.lang.String"/>
+	<parameter name="SYUZENHIKINGAKU23" class="java.lang.String"/>
+	<parameter name="SHOUKEI3" class="java.lang.String"/>
+	<parameter name="SASHIHIKIHENKINGAKU" class="java.lang.String"/>
+	<parameter name="OSHIHARAISAKIKINYUUKIKANMEI" class="java.lang.String"/>
+	<parameter name="OSHIHARAISAKIHONSHITENMEI" class="java.lang.String"/>
+	<parameter name="OSHIHARAISAKIKOUZABUNRUI" class="java.lang.String"/>
+	<parameter name="OSHIHARAISAKIKOUZABANGOU" class="java.lang.String"/>
+	<parameter name="OSHIHARAISAKIKOUZAMEIGI" class="java.lang.String"/>
+	<parameter name="GOHENKINKINYUUKIKANMEI" class="java.lang.String"/>
+	<parameter name="GOHENKINHONSHITENMEI" class="java.lang.String"/>
+	<parameter name="GOHENKINKOUZABUNRUI" class="java.lang.String"/>
+	<parameter name="GOHENKINKOUZABANGOU" class="java.lang.String"/>
+	<parameter name="GOHENKINKOUZAMEIGI" class="java.lang.String"/>
+	<parameter name="GOSEISANKIGEN" class="java.lang.String"/>
+	<parameter name="SHOMEIBI" class="java.lang.String"/>
+	<parameter name="TENKYOSAKIGOJUUSYO" class="java.lang.String"/>
+	<parameter name="RENRAKUSAKIDENWABANGOU" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="128" splitType="Stretch">
+			<staticText>
+				<reportElement x="180" y="0" width="200" height="30" uuid="74dafca1-4f7a-4230-8529-38435b641412"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font fontName="IPAex明朝" size="18"/>
+				</textElement>
+				<text><![CDATA[【 解 約 精 算 書 】]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="0" width="30" height="10" uuid="e0c37f55-6a77-4cad-873b-708902f37fa3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[発送日]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="440" y="0" width="97" height="10" uuid="0f64d7f4-fbc3-4568-a5a0-fef9d7a5b348"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Date}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="429" y="20" width="107" height="40" uuid="6273d79e-57e1-4c7e-93f6-a3e92a3f1023"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="430" y="20" width="107" height="20" uuid="e1a2988b-ff7b-4b87-937d-460793579d3b"/>
+				<box leftPadding="3" rightPadding="3">
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{KAISHAMEI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="430" y="40" width="107" height="20" uuid="8aa1010e-3556-4f24-a5b7-18e7e0774bc2"/>
+				<box topPadding="0" leftPadding="3" rightPadding="3">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[へご返送用]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="50" width="190" height="20" uuid="d0d8bd36-5e3f-4818-8579-f3528bd5824f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CHINSHAKUNIN}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="190" y="50" width="18" height="20" uuid="05daf050-ead4-4f4f-b737-2423e81b9aae"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="18"/>
+				</textElement>
+				<text><![CDATA[様]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="80" width="10" height="10" uuid="7a57bbe2-3e43-497e-a2b0-181628320505"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[〒]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="10" y="80" width="110" height="10" uuid="00701120-6a8f-4a21-b2a9-2a2423d43225"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{YUUBINBANGOU}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="90" width="208" height="30" uuid="c46479ab-e80e-47ec-b87a-28c8967537f5"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{JUSHO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="502" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="20" width="30" height="10" uuid="eed980bc-c668-4026-9454-d46896018110"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[賃貸人]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="60" y="10" width="160" height="20" uuid="cb53d376-e4e1-4e7f-a791-a24f20df4e89"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CHINTAININ}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="220" y="10" width="20" height="20" uuid="7285d711-857c-41d0-847e-433c4e5fce83"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="18"/>
+				</textElement>
+				<text><![CDATA[様]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="40" width="430" height="60" uuid="367e5b9c-7eb7-4464-a1a6-cd7dc06e53cd"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="40" width="80" height="60" uuid="fc19729d-891c-49a3-a2c4-4e78e6659e7f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="40" width="80" height="20" uuid="79eef850-e7a9-4c7e-9a3d-e10a95b464cd"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[物 件 名]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="40" width="350" height="20" uuid="ecbca51b-deea-46ce-8d12-6597061f4887"/>
+				<box topPadding="0" leftPadding="10" bottomPadding="0" rightPadding="0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{BUKKENMEI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="60" width="80" height="10" uuid="4dc8ebe4-486c-4aa0-870e-006c170db8b7"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[賃 借 人 名]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="60" width="350" height="10" uuid="488834b9-d2de-48ea-ad3d-a0143ba78425"/>
+				<box leftPadding="10">
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{CHINSHAKUNIN}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="70" width="80" height="10" uuid="0cfbcb1e-2ce8-4719-a1b2-359cd0d62286"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[解 約 日]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="70" width="350" height="10" uuid="6c423c89-085d-4931-a1fd-3ae7dab23877"/>
+				<box leftPadding="10"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{KAIYAKUBI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="80" width="80" height="10" uuid="d09a53e6-240a-4de8-97cb-0308d1a2c96c"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[退 去 日]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="80" width="350" height="10" uuid="7b6c890e-749e-4435-821b-e2461fdf36cd"/>
+				<box leftPadding="10">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{TAIKYOBI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="90" width="80" height="10" uuid="e3c00493-5363-4524-9590-9410085e24c9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[解約精算日予定日]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="90" width="350" height="10" uuid="874ac1af-7a77-4c9b-8b37-a2af85e6586d"/>
+				<box leftPadding="10"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{KAIYAKUSEISANBIYOTEIBI}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="110" width="208" height="150" uuid="39862dfd-fddf-4439-b796-24c29ebeaa6b"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="110" width="10" height="150" uuid="753c4a38-dc2f-4b5a-9a75-2f3eb3e072f5"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="130" width="10" height="20" uuid="5da37a95-5bd9-4352-bb50-81c2f4426f0f"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[お]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="160" width="10" height="20" uuid="adca9b1e-0c4b-4d25-a08d-2af50418605b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[預]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="190" width="10" height="20" uuid="34656dcf-f37a-4bcf-ab4a-b9b008b069b1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[り]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="220" width="10" height="20" uuid="2ef4baff-5d05-4765-b02d-59c01d27f140"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[金]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="110" width="100" height="10" uuid="d2ca7f36-1cd6-422d-933f-4fe75214d2ac"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[項     目]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="110" width="98" height="10" uuid="7a6fcbd4-88c6-4485-b31b-7f634b55602a"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[金     額（税込）]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="10" y="120" width="100" height="121" uuid="43e8e665-0d6a-4833-8c63-3e162fd2356a"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="10" y="120" width="100" height="10" uuid="aa31f936-ad0b-4ded-a922-996a726cb21c"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="130" width="100" height="10" uuid="903cf145-e284-4d7e-b7d2-86c802dfb047"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="140" width="100" height="10" uuid="3df82b00-2f02-4b0b-8724-959a244584fa"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="150" width="100" height="10" uuid="36b34149-946d-434a-8c38-c2bf85574d05"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="160" width="100" height="10" uuid="59ea70b7-b6c3-454f-88ba-fa36f1373fc8"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="170" width="100" height="10" uuid="4b165355-b549-400a-a82c-79773a12da63"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="180" width="100" height="10" uuid="39c52d9a-f9d9-4505-8390-f2fae4440303"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="190" width="100" height="10" uuid="a429ebbc-301a-415e-af66-214cedbbc950"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="200" width="100" height="10" uuid="a4fb47d4-75d3-4b35-be16-ddc8aa76f496"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="210" width="100" height="10" uuid="fec18b9c-3bae-46b9-b148-98675c6a1307"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="220" width="100" height="10" uuid="a7bd02a2-c00b-418c-8746-eb443948af3e"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="230" width="100" height="11" uuid="810613d3-1e8a-4e8d-abe8-e99468d91825"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKOUMOKU12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="120" width="98" height="10" uuid="7d2cf247-caef-4f07-8bfb-509c6c72b1cc"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="130" width="98" height="10" uuid="d9e7d15b-2903-4f9d-8b14-52830fb4c178"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="140" width="98" height="10" uuid="bfd61074-799f-49bb-a458-33f85149a480"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="150" width="98" height="10" uuid="33072747-ae8d-4849-b473-6b8dc0ca5db4"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="160" width="98" height="10" uuid="1e12dac9-ce8d-4a92-ab4b-5d6e2c06a6a1"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="170" width="98" height="10" uuid="9dd62f53-00e8-46b3-b9ee-ec7f3a37c4c0"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="180" width="98" height="10" uuid="0a154b60-b038-44cd-89dd-be5357226ea2"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="190" width="98" height="10" uuid="075e797e-052d-458f-90e0-a24f207f82a4"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="200" width="98" height="10" uuid="3bf9a509-7cd5-42ad-ae16-13fc53b0efbe"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="210" width="98" height="10" uuid="8e3696fe-9d65-4d8b-9fff-268e6150a6b9"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="220" width="98" height="10" uuid="62c99512-82a9-4b6a-ad4f-1275151cc17b"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="230" width="98" height="11" uuid="ede184da-6af6-4ab5-ae34-4702109fc839"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OAZUKARIKIN12}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="241" width="100" height="19" uuid="a9bcb2ef-5bb8-4ea1-921d-89f9e565c1f5"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[小     計①]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="110" y="241" width="98" height="19" uuid="afd15d82-1f25-42ec-9912-e55ecafa2cf5"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="110" y="241" width="80" height="19" uuid="3b65ed11-b944-4732-966c-ac05a23aefa6"/>
+				<box rightPadding="0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SHOUKEI1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="190" y="241" width="18" height="19" uuid="5728cd35-9762-4dad-8791-3ddfec95b125"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[円]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="270" width="208" height="149" uuid="25286de8-4c03-4f8f-b23b-b70118470562"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="270" width="10" height="149" uuid="cffcc8e9-075e-44dd-99f3-195e79a28e18"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="300" width="10" height="10" uuid="dba1af74-1af3-466f-9e36-cf3c76d9c3fd"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" rotation="None">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[請]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="340" width="10" height="10" uuid="a70a3e8b-9b56-4fbc-a856-bd4dc21c66d7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[求]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="380" width="10" height="10" uuid="56726bc1-5a5e-4946-991d-a9f99ad5c934"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[額]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="10" y="270" width="100" height="149" uuid="bf9787f8-cda1-4217-9473-94a16a83b29d"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="10" y="270" width="100" height="10" uuid="e2d9fd51-c420-4b64-a39f-6b1dc942b56e"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[項     目]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="270" width="98" height="10" uuid="5f691268-e29f-4df1-a68f-679bdafbf487"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[金     額（税込）]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="10" y="280" width="100" height="10" uuid="90b0f155-f53f-4199-ae74-3e3a9380f71b"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="290" width="100" height="10" uuid="5eb073b4-d26e-4262-ae81-b773e19d7cdd"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="300" width="100" height="10" uuid="24640f42-50c6-4eaf-9c3a-791e8df89291"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="310" width="100" height="10" uuid="f319d2aa-5d4d-4bc5-9f62-ae53ba725e68"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="320" width="100" height="10" uuid="fb069fdc-c7c0-4289-bd49-752bc74a23e4"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="330" width="100" height="10" uuid="34aa79fd-0f48-400d-8c95-7b549337bdc3"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="340" width="100" height="10" uuid="18a5f3c1-3f91-449e-8d5c-66d0a6c6f6ef"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="350" width="100" height="10" uuid="5015b67b-247c-45c4-aaab-e6bcd2f3dd21"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="360" width="100" height="10" uuid="282a7d14-9385-48c1-af9e-8da5b5a2c1f0"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="370" width="100" height="10" uuid="b0924713-0b86-4eba-8aa1-b491a11e1e53"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="380" width="100" height="10" uuid="8e688683-e056-4742-bb07-3db13b6392a9"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="390" width="100" height="10" uuid="0bff9b6d-5c9c-4857-9823-692149d72f78"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUKOUMOKU12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="280" width="98" height="10" uuid="157adad9-0ee3-4d62-ad4e-cdf0f9b8695d"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="290" width="98" height="10" uuid="51e16b5d-9795-474d-adbc-f6d6573360a1"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="300" width="98" height="10" uuid="d7109ab7-0008-4e07-b9ba-9d1762577b31"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="310" width="98" height="10" uuid="7c648c24-6c16-400b-a092-ccc8039e6128"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="320" width="98" height="10" uuid="21877029-53ed-4ec1-a3e9-37d7718d303a"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="330" width="98" height="10" uuid="33918ae4-3e3a-482e-a873-2cf59cb3cf10"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="340" width="98" height="10" uuid="c49b776f-ecd1-4145-acc9-b8284f37e8cc"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="350" width="98" height="10" uuid="a31fbfbb-1b48-4020-b637-a405fea050bb"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="360" width="98" height="10" uuid="d70e62cf-1f73-42b3-a29d-1a472ab68dc0"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="370" width="98" height="10" uuid="73613aee-6c83-4e88-87f3-bb65106ffb5a"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="380" width="98" height="10" uuid="48bc829b-67b4-4730-b55a-a305464f00e9"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="390" width="98" height="10" uuid="f8b9f6b8-85ee-4bf7-aa1c-38c83874b27a"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SEIKYUGAKU12}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="10" y="400" width="100" height="19" uuid="9afe04c9-c95b-4d45-9daf-e3bb7697bbba"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[小     計②]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="110" y="400" width="98" height="19" uuid="7d4749c2-1bbd-419c-b601-66238ca38ed8"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="110" y="400" width="80" height="19" uuid="3f11cd31-d3de-4289-9c23-0d59cbcc07b3"/>
+				<box rightPadding="0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SHOUKEI2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="190" y="400" width="18" height="19" uuid="cc184d59-4470-4139-b9be-5c1147edd77c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[円]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="220" y="110" width="317" height="270" uuid="e132fa2e-d9c1-4319-855c-c78ab0a24664"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="220" y="110" width="20" height="270" uuid="9dc8849a-cbb2-4bfd-9342-9fc29af62a98"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="220" y="170" width="20" height="10" uuid="4895b5ff-0207-487f-861c-7875339dd731"/>
+				<box>
+					<pen lineWidth="1.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[修]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="240" width="20" height="10" uuid="f1fda152-a566-4535-a42a-ddb5f0f2420a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[繕]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="310" width="20" height="10" uuid="6df39403-90e7-43af-adb7-b3ec5f868add"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[費]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="240" y="110" width="297" height="20" uuid="99992885-647a-49ad-b75b-14e8c65d4cd4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="240" y="110" width="130" height="20" uuid="fa6e0d4a-6f43-402b-9a8c-53d81e414358"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[項     目]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="110" width="70" height="20" uuid="e2d54f37-cfcf-4706-a5ec-a58bb7352ecc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[単     価]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="440" y="110" width="30" height="20" uuid="ee170734-aec7-40d7-a62a-d767a8488a59"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[数量]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="470" y="110" width="67" height="20" uuid="9922048d-da8f-475c-aa92-2d909609109f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[金     額]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="370" y="130" width="70" height="230" uuid="2e1fd7b6-fbe7-4fa7-b301-2870f385d841"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="440" y="130" width="30" height="230" uuid="e5cedf51-b581-4e66-8428-5de68bb7b669"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="240" y="130" width="130" height="10" uuid="2a24abc3-af82-4448-b6b7-a9fd266b9cd9"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="140" width="130" height="10" uuid="954f5059-9053-4d29-8e03-0a7d3b58391b"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="150" width="130" height="10" uuid="91ea27fa-48c2-4a32-be3c-8f90d2cb7c33"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="160" width="130" height="10" uuid="eca491a0-a499-4a9e-9965-8f5921ef2b80"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="170" width="130" height="10" uuid="182cf3ca-3df0-4e2d-9a1a-bb928db70e82"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="180" width="130" height="10" uuid="82370630-ddd1-4853-96d9-be56cf7102ad"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="190" width="130" height="10" uuid="d39f5dd9-a56d-46cf-9636-14d9d7b07842"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="200" width="130" height="10" uuid="6ccefcf2-f886-47dd-807e-0e50074b15fc"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="210" width="130" height="10" uuid="d7b8bff2-3945-42c9-91f2-10e0dfe7b83f"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="220" width="130" height="10" uuid="ec71b1dd-8b46-4265-86e9-422b2996ac66"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="230" width="130" height="10" uuid="de413aba-c461-49a2-85bc-511597aa8865"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="240" width="130" height="10" uuid="fc02d19c-5ead-4ff5-82ed-808fe593582d"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="250" width="130" height="10" uuid="ddf2b994-6597-4a93-a111-be751a7d4852"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="260" width="130" height="10" uuid="ee161078-fbe7-425d-b949-1a4bd935815e"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="270" width="130" height="10" uuid="db4b79ab-db8c-4d6a-a1b6-a0142d795817"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="280" width="130" height="10" uuid="5f4da108-a988-4703-aff2-27a7d6a20f02"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="290" width="130" height="10" uuid="801aef05-9611-451c-86c0-0888e298a549"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="300" width="130" height="10" uuid="639a6760-2aed-4a44-87f3-6fa53ce1434d"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="310" width="130" height="10" uuid="97176e80-c151-40d2-a244-86704e36ef0c"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="320" width="130" height="10" uuid="f75e17ef-de3b-4a17-ac83-1963b06bcdb0"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="330" width="130" height="10" uuid="a94226f0-6bf6-4a90-b8f8-c95cce9739bd"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU21}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="340" width="130" height="10" uuid="dbe97c1c-ac95-477f-98ec-8033f28ca83b"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="240" y="350" width="130" height="10" uuid="4dbf8f5c-2e37-4b76-99bc-e0bb1513c679"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENKOUMOKU23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="130" width="70" height="10" uuid="d95d75ab-23b8-409b-a393-9dd2a8e1dfe4"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="140" width="70" height="10" uuid="4fe633c3-a87b-4c4b-98c1-511063051640"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="150" width="70" height="10" uuid="8d4082a4-c1a5-4c71-9791-fc40dbeb6896"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="160" width="70" height="10" uuid="dc322515-cca2-46ff-914a-6089a1a9610b"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="170" width="70" height="10" uuid="4489d4c7-37ea-4b89-8f2e-15cc51aee9b5"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="180" width="70" height="10" uuid="b5ead801-9c6d-4d3e-a169-8ab7d5148a78"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="190" width="70" height="10" uuid="d2fb85db-e1b0-46a3-8ee0-082705136ae7"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="200" width="70" height="10" uuid="8eaf5a9c-e3e8-4124-8bdf-11b00ed2fb29"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="210" width="70" height="10" uuid="5b4da2d9-4952-43e8-a777-c2bb56ec77e0"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="220" width="70" height="10" uuid="5c9fb8ff-d0af-4920-98a6-85e3fd095aa9"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="230" width="70" height="10" uuid="c235f9c9-7a7f-40f0-81be-3946c3990979"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="240" width="70" height="10" uuid="a341aacc-08cb-407a-8a3b-1b33c4eb58d9"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="250" width="70" height="10" uuid="9cb7e501-e5f4-4229-a5e7-0d9525b49a6c"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="260" width="70" height="10" uuid="3bfbaf14-cfad-4231-943e-baa41c0a4427"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="270" width="70" height="10" uuid="2e1b18c4-dade-403e-acd2-8bc43b408860"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="280" width="70" height="10" uuid="b6b42688-ea43-4ce0-8b97-d9233f4d102e"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="290" width="70" height="10" uuid="b0c11cf2-8c7d-43a3-b813-edbeb8986e4e"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="300" width="70" height="10" uuid="6d800eb1-3686-4ba3-a401-7cbccdaec328"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="310" width="70" height="10" uuid="9b9721b9-0247-4c44-b7e0-3cb7e7908b92"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="320" width="70" height="10" uuid="8ed65b15-e850-48b4-8782-bfe2b5046412"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="330" width="70" height="10" uuid="32f907cc-9d6b-4df7-8c56-38742b5d7693"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA21}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="340" width="70" height="10" uuid="5ab90294-7200-42b4-ba27-668f96ed7794"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="370" y="350" width="70" height="10" uuid="8cf21bf4-5874-4bca-b1fa-720aeca30737"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENTANKA23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="130" width="30" height="10" uuid="8948df8e-de22-419c-afc4-c2518da79e92"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="140" width="30" height="10" uuid="5512cdbd-a65f-42cd-b75f-170483ea614c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="150" width="30" height="10" uuid="c6e6167e-ea0a-40be-88c3-60276f10b98d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="160" width="30" height="10" uuid="75aa3eb3-1b0c-4d29-bd55-5a7d8fd4ad46"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="170" width="30" height="10" uuid="ac336232-a719-41ea-98db-9ce7c664d39c"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="180" width="30" height="10" uuid="4ecadd00-8e02-46b2-8ea1-02bbe68697d3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="190" width="30" height="10" uuid="2b44ca3a-1ae1-4ff4-8755-7a165006a71e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="200" width="30" height="10" uuid="6deb6943-735f-49b4-b791-e46472b677ce"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="210" width="30" height="10" uuid="1218602d-823a-43eb-a12c-19ff19b7be1a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="220" width="30" height="10" uuid="2f799b9e-3cb5-4c3b-aa9e-c343a55603ed"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="230" width="30" height="10" uuid="ce571b63-319d-4d1b-842e-4fe29addaae4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="240" width="30" height="10" uuid="90b0a3a0-8355-4c28-9ddc-b074177bc0ef"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="250" width="30" height="10" uuid="ee04762b-45d2-41c2-a251-76d9ae7b9a65"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="260" width="30" height="10" uuid="5655eddf-8405-42b0-a0e3-2348cfb65832"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="270" width="30" height="10" uuid="21f529d1-2a51-4bdb-8fa6-005b619e9369"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="280" width="30" height="10" uuid="9f22fc76-dab5-4292-bce1-ebf5e20187de"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="290" width="30" height="10" uuid="79e441cc-4a1a-4bb4-ab3e-3fba725b9188"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="300" width="30" height="10" uuid="35511c7c-25e2-41ac-9be9-05bde91054b4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="310" width="30" height="10" uuid="dc9acb57-be39-48d0-be99-21e856fe6420"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="320" width="30" height="10" uuid="7aef4155-d633-4a5a-82da-d3a68ba74e64"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="330" width="30" height="10" uuid="d01c480f-5cc0-4bce-ac51-779896004b77"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU21}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="340" width="30" height="10" uuid="d2ec3dff-7d68-475c-b8bf-8362d0a4a056"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="350" width="30" height="10" uuid="f3dea896-40b5-400c-980b-ea07871dee77"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENSUURYOU23}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="130" width="66" height="10" uuid="6024fde5-915c-4208-bf2f-4d207c4bcb6d"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="140" width="66" height="10" uuid="9485128b-7eba-4d46-82ee-5f4f68780939"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="150" width="66" height="10" uuid="abbbd363-b922-49ac-a195-c61445e28641"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="160" width="66" height="10" uuid="25d42ee7-25a2-4be1-b978-ff7da37324a4"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="170" width="66" height="10" uuid="f2e4282d-1f87-4171-8952-a1e65b7d0171"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="180" width="66" height="10" uuid="7c030c97-a74a-4f55-ba23-e504e705bbbc"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU6}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="190" width="66" height="10" uuid="8003f18f-62db-463e-b89c-5e12ce47b96f"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU7}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="200" width="66" height="10" uuid="fd2c9fb6-6bd4-4e0e-8c58-ee4634f912f1"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU8}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="210" width="66" height="10" uuid="bf0f01f0-9d3c-4f95-9b65-a8c588577eb2"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU9}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="220" width="66" height="10" uuid="e9b2a1f2-c5c0-4070-ad7e-a6796f4cdf8a"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU10}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="230" width="66" height="10" uuid="5455bfc2-5480-4a51-a256-82ff601d6314"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU11}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="240" width="66" height="10" uuid="ec0b9486-0143-4cfe-9bed-de6b82af35f0"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU12}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="250" width="66" height="10" uuid="78d31f46-aab3-4257-90cd-95dd7afd4734"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU13}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="260" width="66" height="10" uuid="4e3d6c00-e937-4fe2-a127-7825b78b77cc"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU14}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="270" width="66" height="10" uuid="318f7fea-f096-42a6-98db-c308cbb0ab20"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU15}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="280" width="66" height="10" uuid="3dd26baf-0101-4362-9675-81af2cc6df0e"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU16}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="290" width="66" height="10" uuid="31d0c815-0f10-41ed-a9ea-8cd9209f1d44"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU17}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="300" width="66" height="10" uuid="2ac83edb-0919-47a8-b4ae-b960f96233a9"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU18}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="310" width="66" height="10" uuid="ffd0dd28-813e-424f-ae18-47107fcac61d"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU19}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="320" width="66" height="10" uuid="269e9d29-4b3c-4be2-803b-c6d1e4254454"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU20}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="330" width="66" height="10" uuid="6c9f7fd1-8e0b-4384-afc4-915c756ca3d0"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU21}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="340" width="66" height="10" uuid="f84ab052-ef2e-4ff1-80b4-59c7d8136fca"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU22}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="470" y="350" width="66" height="10" uuid="6492bac6-a408-4658-b9f6-88b05f587c9b"/>
+				<box rightPadding="5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SYUZENHIKINGAKU23}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="240" y="360" width="230" height="20" uuid="df82bd9a-f977-49ed-93c4-b7d4bacfd0bb"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[小     計③     （税込）]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="470" y="360" width="67" height="20" uuid="fbe24be2-d398-4f33-97c0-d62582cd3099"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="470" y="360" width="50" height="20" uuid="9dbd8e0f-2476-4689-93ea-86850fa5ecaa"/>
+				<box rightPadding="0"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SHOUKEI3}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="520" y="360" width="16" height="20" uuid="ba6a78ec-fdca-4f16-9edc-b82fc5107285"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[円]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="220" y="390" width="317" height="30" uuid="69dd52a9-7258-47ef-a859-0c3064b7b2ff"/>
+				<graphicElement>
+					<pen lineStyle="Solid"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="223" y="393" width="311" height="24" uuid="64f618c4-9b97-4bee-9b70-61b271121dd8"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="223" y="393" width="157" height="24" uuid="1c1deca8-46d9-4e73-90b5-5227f18150f9"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[差引返金額（① - ② - ③）]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="380" y="393" width="130" height="24" uuid="ee0c09f5-d58f-4645-be0c-0cd2720b2854"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{SASHIHIKIHENKINGAKU}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="510" y="393" width="24" height="24" uuid="633a9984-453f-45c3-b644-ff6f605f2bdc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[円]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="440" width="260" height="50" uuid="7e62afe1-a84e-4e02-851f-15342bb0d48f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="440" width="20" height="50" uuid="8e8e5a30-1d1a-451f-90c5-26df60118d43"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="440" width="20" height="10" uuid="a3b50a0d-7c20-469a-94e4-5e2b59bdaecf"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[お]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="450" width="20" height="10" uuid="0ac9da25-b738-4882-bbf3-bba4d0a6db4d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[支]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="460" width="20" height="10" uuid="13d0186d-6bf4-4ffd-a07f-d4365943d794"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[払]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="470" width="20" height="10" uuid="7691a096-99e0-40f9-a657-7502ff61adf8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[い]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="480" width="20" height="10" uuid="cc96f0b3-cd48-456a-b03f-d2da845e808e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[先]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="440" width="90" height="10" uuid="a0289117-77cf-42f3-bfb2-18ea462e99f4"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[金  融  機  関  名]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="440" width="150" height="10" uuid="8881d503-4cd5-4c0d-9b38-d25a3a4e9428"/>
+				<box leftPadding="5">
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OSHIHARAISAKIKINYUUKIKANMEI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="450" width="90" height="10" uuid="8022757a-e384-4805-b93e-9c133f979d40"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[本   支   店   名]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="450" width="150" height="10" uuid="13f75072-002a-4cec-bbf6-9ff7305f81c0"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OSHIHARAISAKIHONSHITENMEI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="460" width="90" height="10" uuid="c734adf3-ae02-436f-b64b-a38fa2a35c71"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[口   座   分   類]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="460" width="150" height="10" uuid="c813831c-9995-492c-b773-6529715634c6"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OSHIHARAISAKIKOUZABUNRUI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="470" width="90" height="10" uuid="b9674d33-6350-41f7-844c-35b4fe15cc84"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[口   座   番   号]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="470" width="150" height="10" uuid="b0d0b815-eae5-4a9e-8129-4e9c8baaa3c5"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OSHIHARAISAKIKOUZABANGOU}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="480" width="90" height="10" uuid="60d10e4b-7a7a-4442-b5b2-5795d45e6368"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[口   座   名   義]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="110" y="480" width="150" height="10" uuid="c4057945-70ac-40d5-a4a5-1b10df1c6ef7"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{OSHIHARAISAKIKOUZAMEIGI}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="280" y="440" width="256" height="50" uuid="4b1865d1-ca9b-4771-aa5f-9a868fef7e58">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement mode="Transparent" x="280" y="440" width="20" height="50" uuid="efb07660-dd2d-4e0c-ac20-5f06beab60c4"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="280" y="440" width="20" height="10" uuid="1103aeb0-fcbc-45cb-82b2-67f2fc093213"/>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[ご]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="450" width="20" height="10" uuid="e05e1fa7-1aec-46c8-8ef9-819bf46c5817"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[返]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="460" width="20" height="10" uuid="fc17faad-7e72-4fd3-badb-7477390dbe4b"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[金]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="470" width="20" height="10" uuid="c87a842d-0569-4288-a718-0e4755b4c99c"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[口]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="480" width="20" height="10" uuid="5b3f8278-62c6-4411-9f44-bf60a5f75146"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="9"/>
+				</textElement>
+				<text><![CDATA[座]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="440" width="90" height="10" uuid="3b803bef-aaa1-40ed-ba37-00d213f23936"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[金  融  機  関  名]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="390" y="440" width="146" height="10" uuid="635933d1-50be-47d9-8529-4b6cbbfc2280"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GOHENKINKINYUUKIKANMEI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="300" y="450" width="90" height="10" uuid="0d1d1fb0-77e9-4247-a99b-7add38bbd858"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[本   支   店   名]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="390" y="450" width="146" height="10" uuid="7970e4bb-a0b3-48df-831c-8297e9ad98f9"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GOHENKINHONSHITENMEI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="300" y="460" width="90" height="10" uuid="b7bc966d-785b-448d-957d-2231f882bfb9"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[口   座   分   類]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="390" y="460" width="146" height="10" uuid="4146fdcc-654b-4722-abbf-065fafec735f"/>
+				<box leftPadding="5">
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GOHENKINKOUZABUNRUI}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="300" y="470" width="90" height="10" uuid="842bf53f-4440-4bac-819f-80650c3b5b9d"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[口   座   番   号]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="390" y="470" width="146" height="10" uuid="87277b86-b319-4076-88a6-8c1298877dad"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement>
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GOHENKINKOUZABANGOU}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="300" y="480" width="90" height="10" uuid="2fde1895-99fd-49a5-bb4b-6c2ab5af0a84"/>
+				<box>
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<text><![CDATA[口   座   名   義]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="390" y="480" width="146" height="10" uuid="97252269-94c5-4fd9-91ad-38dcc9f65466"/>
+				<box leftPadding="5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GOHENKINKOUZAMEIGI}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="100" splitType="Stretch">
+			<staticText>
+				<reportElement x="40" y="0" width="60" height="10" uuid="78025425-a5c3-4fae-b4d0-80c14ee1c41f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[ご精算金は]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="0" width="140" height="10" uuid="828fd7cd-502e-4a4b-ad70-d81aab080adf"/>
+				<box leftPadding="5">
+					<pen lineWidth="0.25"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{GOSEISANKIGEN}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="240" y="0" width="150" height="10" uuid="114744d5-1bfa-44a9-a1db-f1fb425a1fb5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[までにお手続きをお願いします。]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="20" width="537" height="10" uuid="05e88a7f-4066-47dd-b35c-a49d0e7b718f"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[振込手数料は賃借人様ご負担でのご了承ください。   ／   下記へのご署名・押印後、返送用をご返送願います]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement mode="Transparent" x="0" y="40" width="537" height="60" uuid="3cc79660-a9fd-4748-b14e-956aa1160687"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="60" width="526" height="10" uuid="3c39eaf8-2b10-4f7e-8150-97b576f576ab"/>
+				<box>
+					<bottomPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[署名日]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="60" width="60" height="10" uuid="86a91564-c7ac-4549-b2e4-2f6099f08be5"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[転居先ご住所]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="6" y="80" width="264" height="12" uuid="57d2a54d-233f-4631-ae44-f6c2ca52780c"/>
+				<box leftPadding="10">
+					<bottomPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[ご   署   名]]></text>
+			</staticText>
+			<ellipse>
+				<reportElement mode="Transparent" x="248" y="78" width="14" height="14" uuid="c888f24f-97f2-4c0f-8a95-60ed048b02ae"/>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</ellipse>
+			<staticText>
+				<reportElement x="250" y="80" width="10" height="10" uuid="1439ce35-4480-4e80-8652-0f058e98bb6f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[印]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="280" y="80" width="252" height="12" uuid="0c8c670f-22c9-4707-96c4-fd782cfcc0d6"/>
+				<box>
+					<bottomPen lineWidth="0.25"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="IPAex明朝"/>
+				</textElement>
+				<text><![CDATA[連絡取れ易い電話番号]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

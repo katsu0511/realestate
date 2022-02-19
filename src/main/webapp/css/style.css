@@ -1,0 +1,449 @@
+@charset "UTF-8";
+
+/*共通*/
+body {
+	background-color: skyblue;
+	margin: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+main{
+	padding: 0 60px;
+}
+.button {
+	display: block;
+	background-color: navy;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	border: solid 2px #000066;
+	border-radius: 5px;
+	padding: 2px 15px 3px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.button:hover {
+	opacity: 0.6;
+}
+.error {
+	display: none;
+	color: red;
+  	font-size: 20px;
+}
+h1 {
+	color: #333;
+	text-align: center;
+	margin: 0;
+}
+h2 {
+	font-size: 24px;
+	text-align: center;
+}
+h3 {
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+}
+.show_buttons {
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	height: 38px;
+	margin: 20px auto;
+}
+.show_buttons form {
+	width: 100px;
+	text-align: center;
+	margin: 0 5px;
+}
+.show_buttons input {
+	width: 100px;
+	height: 38px;
+	padding: 0;
+}
+.show_buttons a {
+	width: 100px;
+	text-align: center;
+	padding: 2px 0 0;
+	margin: 0 5px;
+}
+
+/*ヘッダー*/
+header {
+	background-color: #ffffbb;
+	width: 100%;
+	height: 80px;
+}
+header .container {
+	display: flex;
+	justify-content: space-between;
+}
+header h1 {
+	margin-top: 15px;
+}
+.header-btn {
+	display: flex;
+	margin: 21px 0;
+}
+.header-btn a {
+	margin: 0 15px;
+}
+.back-btn {
+	display: inline-block;
+	position: relative;
+	top: -4px;
+	background-color: navy;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 50%;
+	width: 34px;
+	height: 34px;
+	padding-right: 9px;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.back-btn:hover {
+	opacity: 0.6;
+}
+
+/*ログイン画面*/
+.login-item {
+	display: flex;
+	justify-content: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.login-label {
+	text-align: right;
+	width: 10rem;
+	margin-right: 10px;
+	line-height: 52px;
+}
+.login-info {
+	font-size: 24px;
+	width: 300px;
+	padding: 10px 5px;
+}
+.error-message {
+	font-size: 24px;
+	color: red;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.login-link {
+	text-align: center;
+}
+
+/*トップページ*/
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 100px;
+}
+.management {
+	display: block;
+	background-color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	border-radius: 10px;
+	text-align: center;
+	width: calc(50% - 60px / 2);
+	padding: 15px 0;
+	margin: 0 60px 60px 0;
+	transition: 0.3s;
+}
+.management:nth-child(2n) {
+	margin-right: 0;
+}
+.management:hover {
+	opacity: 0.6;
+}
+
+/**登録画面**/
+main {
+	padding-bottom: 30px;
+}
+main form {
+	width: calc(100% - 30px);
+	height: 100%;
+	margin: 0 15px;
+}
+.tr {
+	display: flex;
+	align-items: stretch;
+	width: 100%;
+	margin: 1px 0;
+}
+.th {
+	background-color: #d6d6d6;
+	font-size: 24px;
+	width: 30%;
+	text-align: right;
+	padding: 5px;
+}
+.th span {
+	color: red;
+}
+.td {
+	background-color: #eeeeee;
+	font-size: 20px;
+	width: 70%;
+	height: 100%;
+	padding: 5px;
+}
+.td input {
+	font-size: 24px;
+	border: solid 1px #777;
+	border-radius: 5px;
+	width: calc(100% - 22px);
+	height: 50px;
+	padding: 0px 10px;
+	outline: none;
+}
+.td select {
+	font-size: 24px;
+	width: 100%;
+	height: 60px;
+	outline: none;
+}
+.td textarea {
+	font-size: 24px;
+	border: solid 1px #777;
+	border-radius: 5px;
+	width: calc(100% - 22px);
+	height: 150px;
+	padding: 12px 10px;
+}
+.short {
+	width: 50%!important;
+}
+.mini {
+	width: 30%!important;
+}
+.zip {
+	width: 60px!important;
+}
+.back-gray {
+	background-color: #eee;
+}
+.register_buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.register_buttons input, .register_buttons a {
+	margin: 0 5px;
+}
+input[type="file"] {
+	border: none;
+	height: 100%;
+}
+.channel-td {
+	display: flex;
+	align-items: center;
+}
+select.channel-sel {
+	width: 70%;
+}
+#cite {
+	width: 12%;
+	margin-left: 20px;
+}
+.ts {
+	background-color: #ffffbb;
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+.new_inputs {
+	margin: 20px auto;
+}
+.new_input {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	padding: 2px 0;
+	margin: 1px 0;
+}
+.new_input p {
+	margin: 0;
+}
+.td_next {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.delete_input {
+	font-size: 16px!important;
+	width: 70px!important;
+	height: 30px!important;
+}
+
+/**一覧画面**/
+.display {
+	border: 3px solid #333;
+	border-bottom: 2px solid #333;
+	text-align: center;
+	width: 100%;
+}
+.display-thead {
+	display: flex;
+	font-weight: bold;
+	border-bottom: 3px solid #333;
+}
+.display-th, .display-td {
+	font-size: 16px;
+	border-right: 3px solid #333;
+	width: 30%;
+	padding: 5px 10px;
+}
+.display-th:last-child {
+	border-right: none;
+	width: 70%;
+}
+.display-tbody {
+	display: none;
+	border-bottom: 1px solid #333;
+}
+.visible {
+	display: flex;
+}
+.display-td:last-child {
+	border-right: none;
+	width: 70%;
+}
+.display-con {
+	text-decoration: none;
+}
+.no-display {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 20vh;
+}
+.display-title {
+	position: relative;
+}
+.del {
+	width: 100%;
+}
+.search {
+	display: flex;
+	align-items: center;
+}
+.search select {
+	position: relative;
+	top: 3px;
+	background-color: white;
+	font-size: 18px;
+	border: 1px solid navy;
+	width: 150px;
+	height: 34px;
+	margin-left: 5px;
+	outline: none;
+}
+.add-button {
+	display: flex;
+	justify-content: center;
+	height: 38px;
+	margin: 30px 0;
+}
+.add-button a, .add-button input {
+	margin: 0 5px;
+}
+.index-shift {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.date-search {
+	display: flex;
+	align-items: center;
+}
+.date-input {
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 2px;
+}
+.date-search .date {
+	height: 25px;
+	width: 120px;
+	margin: 0 5px;
+}
+.pay_table {
+	width: 100%;
+	margin: 0;
+}
+#apply {
+	cursor: pointer;
+}
+.decide-form {
+	margin: 0 auto;
+}
+.register-button {
+	cursor: pointer;
+}
+.pay-input {
+	font-size: 16px;
+	border: solid 1px #777;
+	border-radius: 5px;
+	width: calc(100% - 12px);
+	height: calc(100% - 3px);
+	padding: 0px 5px;
+	outline: none;
+}
+.pay-select {
+	background-color: white;
+	border: solid 1px #777;
+	border-radius: 5px;
+	width: 100%;
+	height: calc(100% - 2px);
+}
+.pad-fix {
+	padding:2px 10px 0;
+}
+.pay-sh {
+	width: 65%;
+}
+
+/**詳細画面**/
+.show {
+	border-top: 3px solid #333;
+	border-right: 3px solid #333;
+	border-left: 3px solid #333;
+	border-bottom: 2px solid #333;
+	width: 90%;
+	margin: 60px auto 0;
+}
+.show-tr {
+	display: flex;
+	border-bottom: 1px solid #333;
+}
+.show-th {
+	font-size: 24px;
+	font-weight: bold;
+	border-right: 3px solid #333;
+	text-align: center;
+	width: 30%;
+	padding: 15px 5px;
+}
+.show-td {
+	font-size: 24px;
+	width: 70%;
+	padding: 15px 0;
+}
+.show-con {
+	padding: 0 10px;
+}
+.show-con img {
+	width: 50%;
+}
